@@ -10,7 +10,7 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
     var isSummaryOrBookSummary = parent && (parent.classList.contains('summary') || parent.classList.contains('book-summary'))
 
     if (isSummaryOrBookSummary && chapter.length) {
-      expand(parent)
+      expand($parent)
     }
   }
 
