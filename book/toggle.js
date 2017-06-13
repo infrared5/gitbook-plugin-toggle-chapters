@@ -5,12 +5,10 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
   function expand(chapter) {
     chapter.show()
 
-    var $parent = chapter.parent()
-    var parent = $parent.get(0)
-    var isSummaryOrBookSummary = parent && (parent.classList.contains('summary') || parent.classList.contains('book-summary'))
-
-    if (isSummaryOrBookSummary && chapter.length) {
-      expand($parent)
+    var parent = chapter.parent()
+    var clzz = parent.attr('class')
+    if (clzz !== 'summary' && clzz !== 'book-summary' && chapter.length) {
+      expand(parent)
     }
   }
 
