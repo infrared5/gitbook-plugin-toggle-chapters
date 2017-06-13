@@ -2,18 +2,19 @@
     "name": "gitbook-plugin-toggle-chapters",
     "description": "Toggle Chapters on GitBook",
     "main": "index.js",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "gitbook": "*"
     },
-    "homepage": "https://github.com/poojan/gitbook-plugin-toggle-chapters",
+    "homepage": "https://github.com/infrared5/gitbook-plugin-toggle-chapters",
     "repository": {
         "type": "git",
-        "url": "https://github.com/poojan/gitbook-plugin-toggle-chapters.git"
+        "url": "https://github.com/infrared5/gitbook-plugin-toggle-chapters.git"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/poojan/gitbook-plugin-toggle-chapters/issues"
+        "url": "https://github.com/infrared5/gitbook-plugin-toggle-chapters/issues"
     },
-    "author": "Poojan Shrestha <poojans@gmail.com>"
+    "author": "Kyle Kellogg <info@infrared5.com>",
+    "private": true
 }

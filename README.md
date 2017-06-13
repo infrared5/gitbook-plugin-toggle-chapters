@@ -2,9 +2,11 @@
 
 ## Install it using:
 
-```$ npm install gitbook-plugin-toggle-chapters```
+```
+$ npm install gitbook-plugin-toggle-chapters
+```
 
-To use it in your book, add this to book.json:
+To use it in your book, add this to `book.json`:
 ```
 {
     "plugins": ["toggle-chapters"]
