@@ -38,4 +38,8 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
   gitbook.events.bind('page.change', onChange)
   recurringCheckForHashChange()
 
+  if (gitbook.search) {
+    gitbook.search.query(oldHash || '')
+  }
+
 })
